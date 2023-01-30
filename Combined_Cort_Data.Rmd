@@ -31,6 +31,9 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 
 ```{r}
+install.packages("colorspace", type="binary")
+
+
 library(ggplot2)
 library(car)
 library(tidyverse)
@@ -352,7 +355,25 @@ ggplot(AFgroup2and5, aes(x=Date, y=Cort_Numeric,  col=Class2.0)) + geom_point(sh
 ggplot(cort_w_updowns, aes(x=Name, y=mean_updown, col=Group)) + geom_point(shape=16, size=1.75, alpha=0.6) + theme_minimal() + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1, size=3))
 ```
 ```{r}
-
+cort_w_updowns$Pregnant2 <- cort_w_updowns$Pregnant  
+cort_w_updowns <- cort_w_updowns %>% mutate_at(c('Pregnant2'), ~na_if(., 10))
 ```
 
+```{r}
+group2and5$Pregnant2 <- group2and5$Pregnant  
+group2and5 <- group2and5 %>% mutate_at(c('Pregnant2'), ~na_if(., 10))
+```
+
+
+```{r}
+group2and5 <- group2and5 %>% 
+  
+  mutate(Repro_Narrow = case_when(Pregnant =="1" ~ "1" ,
+                             dInfant == "1" ~ "2",
+                            Pregnant == "0" ~ "0",))
+```
+
+```{r}
+
+```
 
