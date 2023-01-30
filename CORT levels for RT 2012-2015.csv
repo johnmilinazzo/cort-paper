@@ -1,0 +1,692 @@
+Species,Period,WoP,Sample,Group,Date,Time,Name,Class,Status Cort,Cort_DW
+RT,f,63 ,552,R1,03/24/2014,11:46,Antelope,SF,done,698 
+RT,f,63 ,560,R1,03/25/2014,13:34,Antelope,SF,done,903 
+RT,f,65 ,604,R1,05/10/2014,09:40,Antelope,SF,done,57 
+RT,f,65 ,617,R1,05/13/2014,12:40,Antelope,SF,done,169 
+RT,f,66 ,648,R1,06/16/2014,09:31,Antelope,SF,done,187 
+RT,f,66 ,660,R1,06/18/2014,11:57,Antelope,SF,done,158 
+RT,f,63 ,502,R1,03/16/2014,12:43,Buffalo,AF,done,221 
+RT,f,63 ,538,R1,03/22/2014,12:20,Buffalo,AF,done,269 
+RT,f,63 ,554,R1,03/24/2014,12:35,Buffalo,AF,done,301 
+RT,f,65 ,596,R1,05/07/2014,11:25,Buffalo,AF,done,108 
+RT,f,66 ,633,R1,06/13/2014,13:08,Buffalo,AF,done,201 
+RT,f,64 ,570,R1,04/12/2014,10:29,Bushbuck,AF,done,119 
+RT,f,64 ,580,R1,04/14/2014,11:49,Bushbuck,AF,done,150 
+RT,f,66 ,639,R1,06/14/2014,13:05,Bushbuck,AF,done,674 
+RT,d,51 ,203,R1,02/12/2013,11:35,Donkey,AF,done,676 
+RT,f,64 ,575,R1,04/13/2014,14:22,Donkey,AF,done,122 
+RT,f,66 ,631,R1,06/13/2014,11:25,Donkey,AF,done,137 
+RT,f,63 ,528,R1,03/21/2014,10:31,Duiker,AF,done,876 
+RT,f,64 ,571,R1,04/12/2014,11:43,Duiker,AF,done,85 
+RT,f,64 ,579,R1,04/14/2014,10:55,Duiker,AF,done,278 
+RT,f,66 ,637,R1,06/14/2014,10:30,Duiker,AF,done,384 
+RT,f,63 ,492,R1,03/13/2014,09:55,Elephant,AM,done,"1,184 "
+RT,f,63 ,559,R1,03/25/2014,13:20,Elephant,AM,done,173 
+RT,f,66 ,638,R1,06/14/2014,11:35,Elephant,AM,done,202 
+RT,f,66 ,649,R1,06/16/2014,11:10,Elephant,AM,done,172 
+RT,f,66 ,658,R1,06/18/2014,09:20,Giraffe,AF,done,83 
+RT,d,50 ,158,R1,01/20/2013,09:15,Hippo,AF,done,491 
+RT,f,63 ,519,R1,03/19/2014,12:33,Hippo,AF,done,338 
+RT,f,63 ,544,R1,03/23/2014,12:32,Hippo,AF,done,100 
+RT,f,65 ,595,R1,05/07/2014,10:15,Hippo,AF,done,213 
+RT,f,66 ,632,R1,06/13/2014,12:10,Hippo,AF,done,83 
+RT,f,67 ,674,R1,07/12/2014,11:10,Hippo,AF,done,278 
+RT,f,63 ,508,R1,03/17/2014,14:01,Horse,AF,done,66 
+RT,f,65 ,605,R1,05/10/2014,11:55,Horse,AF,done,163 
+RT,f,66 ,659,R1,06/18/2014,11:49,Horse,AF,done,148 
+RT,f,63 ,503,R1,03/16/2014,13:20,Hyena,AF,done,203 
+RT,f,63 ,512,R1,03/18/2014,12:12,Hyena,AF,done,450 
+RT,f,63 ,529,R1,03/21/2014,00:10,Hyena,AF,done,274 
+RT,f,64 ,569,R1,04/11/2014,11:15,Hyena,AF,done,103 
+RT,f,66 ,630,R1,06/13/2014,09:40,Hyena,AF,done,252 
+RT,d,49 ,148,R1,01/07/2013,09:05,Leopard,AF,done,918 
+RT,d,50 ,151,R1,01/17/2013,13:20,Leopard,AF,done,953 
+RT,f,63 ,520,R1,03/19/2014,13:50,Leopard,AF,done,177 
+RT,f,64 ,565,R1,04/09/2014,12:15,Leopard,AF,done,84 
+RT,f,64 ,582,R1,04/15/2014,13:12,Leopard,AF,done,217 
+RT,f,65 ,600,R1,05/09/2014,17:05,Leopard,AF,done,501 
+RT,f,66 ,650,R1,06/16/2014,11:43,Leopard,AF,done,204 
+RT,f,66 ,661,R1,06/18/2014,12:21,Leopard,AF,done,87 
+RT,f,65 ,590,R1,05/06/2014,11:05,Lion,SM,done,172 
+RT,f,66 ,622,R1,06/12/2014,13:40,Lion,SM,done,106 
+RT,f,67 ,669,R1,07/11/2014,10:15,Lion,SM,done,531 
+RT,d,51 ,187,R1,02/08/2013,15:09,Rhino,AF,done,407 
+RT,f,63 ,513,R1,03/18/2014,13:10,Rhino,AF,done,875 
+RT,d,51 ,198,R1,02/11/2013,14:10,Tiger,AF,done,328 
+RT,f,63 ,493,R1,03/13/2014,23:10,Tiger,AF,done,283 
+RT,f,63 ,504,R1,03/16/2014,14:10,Tiger,AF,done,"1,437 "
+RT,f,63 ,530,R1,03/21/2014,13:40,Tiger,AF,done,397 
+RT,f,63 ,553,R1,03/24/2014,12:05,Tiger,AF,done,333 
+RT,f,65 ,609,R1,05/11/2014,11:22,Tiger,AF,done,54 
+RT,f,66 ,629,R1,06/13/2014,09:20,Tiger,AF,done,267 
+RT,f,67 ,675,R1,07/12/2014,12:05,Tiger,AF,done,150 
+RT,f,65 ,608,R1,05/11/2014,08:50,Wolf,SM,done,119 
+RT,f,66 ,620,R1,06/12/2014,10:59,Wolf,SM,done,127 
+RT,f,67 ,673,R1,07/12/2014,10:30,Wolf,SM,done,221 
+RT,d,50 ,159,R1,01/20/2013,10:11,Zebra,AF,done,623 
+RT,d,51 ,186,R1,02/08/2013,10:31,Zebra,AF,done,681 
+RT,f,63 ,514,R1,03/18/2014,14:45,Zebra,AF,done,781 
+RT,f,63 ,523,R1,03/20/2014,23:55,Zebra,AF,done,593 
+RT,f,65 ,598,R1,05/08/2014,11:20,Zebra,AF,done,60 
+RT,f,65 ,616,R1,05/13/2014,09:05,Zebra,AF,done,158 
+RT,f,66 ,621,R1,06/12/2014,11:25,Zebra,AF,done,330 
+RT,f,66 ,662,R1,06/18/2014,14:10,Zebra,AF,done,226 
+RT,c,45 ,21,R2,10/03/2012,11:44,Gulu,AF,done,166 
+RT,c,45 ,23,R2,10/04/2012,08:28,Gulu,AF,done,336 
+RT,c,46 ,56,R2,10/27/2012,11:38,Gulu,AF,done,217 
+RT,c,46 ,67,R2,10/30/2012,09:16,Gulu,AF,done,407 
+RT,c,47 ,99,R2,11/15/2012,10:54,Gulu,AF,done,"1,324 "
+RT,c,47 ,106,R2,11/24/2012,12:15,Gulu,AF,done,307 
+RT,c,48 ,130,R2,12/10/2012,14:00,Gulu,AF,done,386 
+RT,c,48 ,137,R2,12/13/2012,15:21,Gulu,AF,done,744 
+RT,c,48 ,143,R2,12/17/2012,10:34,Gulu,AF,done,796 
+RT,d,50 ,169,R2,01/24/2013,12:04,Gulu,AF,done,651 
+RT,d,50 ,180,R2,01/29/2013,13:00,Gulu,AF,done,"1,365 "
+RT,d,51 ,196,R2,02/10/2013,13:11,Gulu,AF,done,659 
+RT,d,53 ,240,R2,03/21/2013,16:02,Gulu,AF,done,"2,847 "
+RT,d,53 ,248,R2,03/25/2013,14:06,Gulu,AF,done,"1,647 "
+RT,d,53 ,255,R2,03/28/2013,11:21,Gulu,AF,done,306 
+RT,d,53 ,257,R2,03/30/2013,13:12,Gulu,AF,done,475 
+RT,f,63 ,506,R2,03/16/2014,11:56,Gulu,AF,done,884 
+RT,f,65 ,597,R2,05/07/2014,09:11,Gulu,AF,done,485 
+RT,f,66 ,640,R2,06/14/2014,11:17,Gulu,AF,done,139 
+RT,f,67 ,684,R2,07/13/2014,13:10,Gulu,AF,done,231 
+RT,f,67 ,694,R2,07/16/2014,13:45,Gulu,AF,done,70 
+RT,g,68 ,709,R2,01/21/2015,10:12,Gulu,AF,done,678 
+RT,g,68 ,715,R2,01/23/2015,10:20,Gulu,AF,done,177 
+RT,f,63 ,524,R2,03/20/2014,11:38,Hoima,AF,done,245 
+RT,f,65 ,613,R2,05/12/2014,10:23,Hoima,AF,done,287 
+RT,f,67 ,683,R2,07/13/2014,12:18,Hoima,AF,done,158 
+RT,c,45 ,36,R2,10/06/2012,14:12,Jinja,AF,done,"1,405 "
+RT,c,45 ,39,R2,10/07/2012,10:13,Jinja,AF,done,786 
+RT,c,46 ,60,R2,10/28/2012,11:34,Jinja,AF,done,294 
+RT,c,46 ,68,R2,10/30/2012,11:24,Jinja,AF,done,919 
+RT,c,46 ,79,R2,11/03/2012,12:40,Jinja,AF,done,305 
+RT,c,47 ,109,R2,11/25/2012,15:30,Jinja,AF,done,"1,072 "
+RT,c,48 ,119,R2,12/06/2012,11:00,Jinja,AF,done,479 
+RT,c,48 ,125,R2,12/08/2012,12:35,Jinja,AF,done,230 
+RT,c,48 ,136,R2,12/13/2012,14:13,Jinja,AF,done,407 
+RT,c,48 ,141,R2,12/16/2012,15:14,Jinja,AF,done,"1,143 "
+RT,d,50 ,162,R2,01/21/2013,11:00,Jinja,AF,done,599 
+RT,d,50 ,174,R2,01/26/2013,11:50,Jinja,AF,done,"1,486 "
+RT,d,50 ,181,R2,01/29/2013,15:59,Jinja,AF,done,616 
+RT,d,51 ,188,R2,02/08/2013,11:24,Jinja,AF,done,570 
+RT,d,51 ,192,R2,02/09/2013,13:30,Jinja,AF,done,880 
+RT,d,51 ,210,R2,02/15/2013,14:34,Jinja,AF,done,645 
+RT,d,52 ,225,R2,03/08/2013,09:44,Jinja,AF,done,"2,592 "
+RT,d,52 ,234,R2,03/11/2013,10:12,Jinja,AF,done,"2,426 "
+RT,d,53 ,249,R2,03/27/2013,11:26,Jinja,AF,done,"1,256 "
+RT,d,53 ,254,R2,03/28/2013,08:16,Jinja,AF,done,201 
+RT,f,63 ,497,R2,03/14/2014,13:52,Jinja,AF,done,455 
+RT,f,63 ,499,R2,03/15/2014,13:10,Jinja,AF,done,889 
+RT,f,63 ,533,R2,03/21/2014,14:15,Jinja,AF,done,184 
+RT,f,64 ,576,R2,04/13/2014,09:12,Jinja,AF,done,134 
+RT,f,65 ,591,R2,05/06/2014,12:09,Jinja,AF,done,196 
+RT,f,66 ,652,R2,06/17/2014,11:16,Jinja,AF,done,114 
+RT,f,66 ,664,R2,06/18/2014,14:18,Jinja,AF,done,57 
+RT,f,67 ,667,R2,07/10/2014,09:18,Jinja,AF,done,584 
+RT,f,67 ,692,R2,07/16/2014,11:14,Jinja,AF,done,274 
+RT,c,46 ,80,R2,11/03/2012,12:56,Jinja's juv?,AF,done,699 
+RT,c,46 ,94,R2,11/06/2012,15:36,KAB or KYE,AF,done,150 
+RT,c,45 ,35,R2,10/06/2012,13:55,Kabarole,AF,done,834 
+RT,c,45 ,40,R2,10/07/2012,10:16,Kabarole,AF,done,242 
+RT,c,46 ,53,R2,10/26/2012,10:32,Kabarole,AF,done,137 
+RT,c,46 ,77,R2,11/03/2012,09:32,Kabarole,AF,done,308 
+RT,c,47 ,112,R2,11/26/2012,08:40,Kabarole,AF,done,266 
+RT,c,48 ,138,R2,12/14/2012,12:04,Kabarole,AF,done,322 
+RT,c,48 ,140,R2,12/15/2012,15:17,Kabarole,AF,done,"1,344 "
+RT,d,50 ,166,R2,01/22/2013,14:28,Kabarole,AF,done,"1,150 "
+RT,d,51 ,200,R2,02/11/2013,14:04,Kabarole,AF,done,742 
+RT,d,51 ,221,R2,02/18/2013,16:03,Kabarole,AF,done,967 
+RT,d,52 ,233,R2,03/10/2013,16:31,Kabarole,AF,done,"1,376 "
+RT,d,52 ,236,R2,03/11/2013,15:23,Kabarole,AF,done,754 
+RT,d,53 ,244,R2,03/24/2013,11:12,Kabarole,AF,done,"1,111 "
+RT,d,53 ,246,R2,03/25/2013,12:49,Kabarole,AF,done,"4,650 "
+RT,d,53 ,258,R2,03/31/2013,09:13,Kabarole,AF,done,217 
+RT,d,53 ,262,R2,04/02/2013,09:57,Kabarole,AF,done,553 
+RT,f,63 ,496,R2,03/14/2014,10:13,Kabarole,AF,done,746 
+RT,f,63 ,539,R2,03/22/2014,10:11,Kabarole,AF,done,685 
+RT,f,63 ,555,R2,03/24/2014,10:34,Kabarole,AF,done,387 
+RT,f,65 ,614,R2,05/12/2014,12:17,Kabarole,AF,done,112 
+RT,f,66 ,624,R2,06/12/2014,12:13,Kabarole,AF,done,78 
+RT,f,67 ,668,R2,07/10/2014,11:22,Kabarole,AF,done,812 
+RT,f,67 ,677,R2,07/12/2014,12:13,Kabarole,AF,done,206 
+RT,g,68 ,717,R2,01/23/2015,13:57,Kabarole,AF,done,235 
+RT,c,42 ,1,R2,08/08/2012,15:07,Kampala,AM,done,238 
+RT,f,63 ,531,R2,03/21/2014,10:17,Kamwenge,AF,done,160 
+RT,f,64 ,566,R2,04/09/2014,12:03,Kamwenge,AF,done,363 
+RT,f,65 ,606,R2,05/10/2014,10:15,Kamwenge,AF,done,339 
+RT,f,66 ,623,R2,06/12/2014,11:20,Kamwenge,AF,done,138 
+RT,f,67 ,697,R2,07/17/2014,13:23,Kamwenge,AF,done,365 
+RT,c,46 ,61,R2,10/28/2012,14:28,Kasese,AM,done,738 
+RT,c,46 ,93,R2,11/06/2012,08:54,Kasese,AM,done,511 
+RT,d,50 ,165,R2,01/22/2013,14:16,Kasese,AM,done,198 
+RT,d,50 ,167,R2,01/23/2013,13:40,Kasese,AM,done,248 
+RT,d,50 ,173,R2,01/26/2013,11:26,Kasese,AM,done,124 
+RT,d,51 ,189,R2,02/08/2013,12:40,Kasese,AM,done,551 
+RT,d,51 ,195,R2,02/10/2013,11:24,Kasese,AM,done,283 
+RT,d,51 ,217,R2,02/17/2013,14:19,Kasese,AM,done,404 
+RT,d,53 ,245,R2,03/24/2013,13:01,Kasese,AM,done,827 
+RT,d,53 ,247,R2,03/25/2013,15:27,Kasese,AM,done,274 
+RT,d,53 ,256,R2,03/29/2013,08:55,Kasese,AM,done,900 
+RT,f,63 ,505,R2,03/16/2014,10:17,Kasese,AM,done,708 
+RT,f,63 ,521,R2,03/19/2014,10:50,Kasese,AM,done,"1,080 "
+RT,f,63 ,540,R2,03/22/2014,11:37,Kasese,AM,done,751 
+RT,f,64 ,583,R2,04/15/2014,14:20,Kasese,AM,done,98 
+RT,f,67 ,689,R2,07/14/2014,10:23,Kasese,AM,done,452 
+RT,c,44 ,16,R2,09/24/2012,16:00,Kyenjojo,AF,done,345 
+RT,c,45 ,24,R2,10/04/2012,10:36,Kyenjojo,AF,done,111 
+RT,c,45 ,30,R2,10/05/2012,13:49,Kyenjojo,AF,done,235 
+RT,c,45 ,41,R2,10/08/2012,11:48,Kyenjojo,AF,done,129 
+RT,c,45 ,46,R2,10/09/2012,15:38,Kyenjojo,AF,done,680 
+RT,c,46 ,65,R2,10/29/2012,11:10,Kyenjojo,AF,done,339 
+RT,c,46 ,76,R2,11/03/2012,07:56,Kyenjojo,AF,done,364 
+RT,c,47 ,98,R2,11/14/2012,16:47,Kyenjojo,AF,done,98 
+RT,c,47 ,105,R2,11/24/2012,12:04,Kyenjojo,AF,done,183 
+RT,c,48 ,116,R2,12/05/2012,16:38,Kyenjojo,AF,done,741 
+RT,c,48 ,128,R2,12/09/2012,11:00,Kyenjojo,AF,done,342 
+RT,c,48 ,133,R2,12/12/2012,11:09,Kyenjojo,AF,done,627 
+RT,c,48 ,139,R2,12/15/2012,14:54,Kyenjojo,AF,done,352 
+RT,d,50 ,155,R2,01/19/2013,10:09,Kyenjojo,AF,done,838 
+RT,d,50 ,172,R2,01/25/2013,13:06,Kyenjojo,AF,done,"2,017 "
+RT,d,51 ,199,R2,02/11/2013,23:59,Kyenjojo,AF,done,"2,043 "
+RT,d,51 ,204,R2,02/13/2013,14:01,Kyenjojo,AF,done,720 
+RT,d,51 ,219,R2,02/18/2013,12:14,Kyenjojo,AF,done,547 
+RT,d,52 ,223,R2,03/07/2013,16:14,Kyenjojo,AF,done,"1,109 "
+RT,d,52 ,232,R2,03/10/2013,15:11,Kyenjojo,AF,done,"4,147 "
+RT,d,53 ,243,R2,03/22/2013,14:28,Kyenjojo,AF,done,"1,952 "
+RT,d,53 ,250,R2,03/27/2013,14:22,Kyenjojo,AF,done,118 
+RT,f,63 ,507,R2,03/16/2014,12:14,Kyenjojo,AF,done,"1,153 "
+RT,f,63 ,541,R2,03/22/2014,12:14,Kyenjojo,AF,done,320 
+RT,f,63 ,556,R2,03/24/2014,11:42,Kyenjojo,AF,done,404 
+RT,f,64 ,573,R2,04/12/2014,13:11,Kyenjojo,AF,done,67 
+RT,f,65 ,599,R2,05/08/2014,09:32,Kyenjojo,AF,done,158 
+RT,f,66 ,635,R2,06/13/2014,12:02,Kyenjojo,AF,done,295 
+RT,f,66 ,663,R2,06/18/2014,12:35,Kyenjojo,AF,done,69 
+RT,f,67 ,678,R2,07/12/2014,13:16,Kyenjojo,AF,done,195 
+RT,f,67 ,693,R2,07/16/2014,12:24,Kyenjojo,AF,done,292 
+RT,g,68 ,712,R2,01/22/2015,14:22,Kyenjojo,AF,done,275 
+RT,g,68 ,723,R2,01/26/2015,13:00,Kyenjojo,AF,done,124 
+RT,c,43 ,5,R2,08/27/2012,09:12,Mityana,AF,done,"1,086 "
+RT,c,45 ,34,R2,10/06/2012,09:15,Mpigi,AF,done,511 
+RT,c,46 ,69,R2,10/30/2012,16:47,Mpigi,AF,done,473 
+RT,c,47 ,113,R2,11/26/2012,10:19,Mpigi,AF,done,205 
+RT,c,48 ,134,R2,12/12/2012,12:42,Mpigi,AF,done,"1,093 "
+RT,c,48 ,135,R2,12/13/2012,08:21,Mpigi,AF,done,528 
+RT,d,50 ,163,R2,01/21/2013,11:22,Mpigi,AF,done,465 
+RT,d,50 ,168,R2,01/24/2013,10:00,Mpigi,AF,done,555 
+RT,d,51 ,211,R2,02/15/2013,16:03,Mpigi,AF,done,"1,236 "
+RT,d,52 ,224,R2,03/08/2013,09:06,Mpigi,AF,done,"1,872 "
+RT,d,52 ,235,R2,03/11/2013,14:17,Mpigi,AF,done,"1,620 "
+RT,d,52 ,237,R2,03/12/2013,14:34,Mpigi,AF,done,788 
+RT,d,53 ,241,R2,03/21/2013,16:44,Mpigi,AF,done,"1,844 "
+RT,d,53 ,242,R2,03/22/2013,11:21,Mpigi,AF,done,"2,285 "
+RT,d,53 ,259,R2,04/01/2013,10:32,Mpigi,AF,done,"1,667 "
+RT,f,63 ,498,R2,03/15/2014,11:42,Mpigi,AF,done,551 
+RT,f,63 ,509,R2,03/17/2014,16:33,Mpigi,AF,done,490 
+RT,f,63 ,532,R2,03/21/2014,13:29,Mpigi,AF,done,612 
+RT,f,63 ,545,R2,03/23/2014,12:45,Mpigi,AF,done,107 
+RT,f,64 ,572,R2,04/12/2014,12:35,Mpigi,AF,done,52 
+RT,f,65 ,592,R2,05/06/2014,15:12,Mpigi,AF,done,225 
+RT,f,66 ,634,R2,06/13/2014,10:45,Mpigi,AF,done,490 
+RT,f,66 ,653,R2,06/17/2014,13:09,Mpigi,AF,done,134 
+RT,f,67 ,676,R2,07/12/2014,11:45,Mpigi,AF,done,302 
+RT,g,68 ,718,R2,01/24/2015,10:17,Mpigi,AF,done,261 
+RT,c,45 ,22,R2,10/04/2012,07:38,Mubende,SM,done,330 
+RT,c,45 ,29,R2,10/05/2012,11:03,Mubende,SM,done,193 
+RT,c,46 ,48,R2,10/24/2012,08:30,Mubende,SM,done,869 
+RT,c,46 ,78,R2,11/03/2012,10:24,Mubende,SM,done,294 
+RT,c,47 ,101,R2,11/16/2012,12:46,Mubende,SM,done,357 
+RT,c,47 ,111,R2,11/26/2012,08:22,Mubende,SM,done,161 
+RT,c,48 ,129,R2,12/10/2012,10:12,Mubende,SM,done,360 
+RT,c,48 ,142,R2,12/17/2012,10:17,Mubende,SM,done,521 
+RT,d,50 ,153,R2,01/18/2013,08:50,Mubende,SM,done,496 
+RT,d,50 ,160,R2,01/20/2013,12:00,Mubende,SM,done,587 
+RT,d,50 ,175,R2,01/26/2013,14:11,Mubende,SM,done,638 
+RT,d,51 ,185,R2,02/07/2013,12:11,Mubende,SM,done,669 
+RT,d,51 ,191,R2,02/09/2013,12:14,Mubende,SM,done,837 
+RT,d,51 ,208,R2,02/14/2013,16:14,Mubende,SM,done,"2,429 "
+RT,d,51 ,209,R2,02/15/2013,09:51,Mubende,SM,done,337 
+RT,d,51 ,220,R2,02/18/2013,12:34,Mubende,SM,done,261 
+RT,d,52 ,229,R2,03/09/2013,13:27,Mubende,SM,done,"2,999 "
+RT,c,45 ,33,R3,10/05/2012,15:35,Aluminum,AF,done,820 
+RT,c,46 ,62,R3,10/28/2012,08:12,Aluminum,AF,done,911 
+RT,c,46 ,97,R3,11/06/2012,11:41,Aluminum,AF,done,995 
+RT,c,47 ,115,R3,11/27/2012,10:23,Aluminum,AF,done,345 
+RT,g,68 ,713,R3,01/22/2015,11:12,Aluminum,AFi,done,317 
+RT,g,68 ,725,R3,01/26/2015,09:40,Aluminum,AF,done,247 
+RT,c,46 ,86,R3,11/03/2012,13:17,Argon,AF,done,505 
+RT,c,46 ,88,R3,11/04/2012,15:41,Argon,AF,done,"1,024 "
+RT,c,48 ,123,R3,12/07/2012,11:15,Argon,AF,done,"1,381 "
+RT,g,68 ,734,R3,01/29/2015,12:44,Argon,AF,done,116 
+RT,c,45 ,45,R3,10/08/2012,14:21,Calcium,SF,done,123 
+RT,c,46 ,73,R3,10/31/2012,13:11,Calcium,SF,done,134 
+RT,c,46 ,83,R3,11/03/2012,11:38,Calcium,SF,done,739 
+RT,g,68 ,728,R3,01/26/2015,14:19,Calcium,AF,done,312 
+RT,c,44 ,10,R3,09/15/2012,14:02,Carbon,AF,done,760 
+RT,c,44 ,12,R3,09/16/2012,17:55,Carbon,AF,done,"1,004 "
+RT,c,45 ,25,R3,10/04/2012,09:28,Carbon,AF,done,57 
+RT,c,45 ,32,R3,10/05/2012,14:40,Carbon,AF,done,106 
+RT,c,46 ,58,R3,10/27/2012,10:09,Carbon,AF,done,788 
+RT,c,46 ,59,R3,10/27/2012,14:01,Carbon,AF,done,"1,633 "
+RT,c,46 ,70,R3,10/30/2012,09:20,Carbon,AF,done,"1,780 "
+RT,c,46 ,90,R3,11/04/2012,16:09,Carbon,AF,done,463 
+RT,c,47 ,108,R3,11/24/2012,12:14,Carbon,AF,done,217 
+RT,c,48 ,132,R3,12/10/2012,13:33,Carbon,AF,done,"1,123 "
+RT,c,45 ,27,R3,10/04/2012,13:33,Chlorine,AF,done,176 
+RT,c,46 ,82,R3,11/03/2012,09:40,Chlorine,AF,done,420 
+RT,c,47 ,103,R3,11/16/2012,10:50,Chlorine,AF,done,952 
+RT,c,47 ,104,R3,11/17/2012,10:10,Chlorine,AF,done,"2,728 "
+RT,c,48 ,127,R3,12/08/2012,14:05,Chlorine,AF,done,370 
+RT,g,68 ,708,R3,01/20/2015,14:41,Chlorine,AF,done,159 
+RT,c,44 ,13,R3,09/17/2012,15:10,Coal,AF,done,67 
+RT,c,45 ,43,R3,10/08/2012,08:51,Coal,AF,done,"3,515 "
+RT,c,46 ,54,R3,10/26/2012,07:50,Coal,AF,done,590 
+RT,c,46 ,89,R3,11/04/2012,16:17,Coal,AF,done,235 
+RT,c,47 ,110,R3,11/25/2012,10:20,Coal,AF,done,322 
+RT,c,47 ,114,R3,11/26/2012,11:25,Coal,AF,done,516 
+RT,c,48 ,122,R3,12/06/2012,16:11,Coal,AF,done,384 
+RT,g,68 ,732,R3,01/28/2015,11:11,Coal,AF,done,248 
+RT,c,43 ,7,R3,08/28/2012,09:05,Copper,AM,done,"1,055 "
+RT,c,44 ,17,R3,09/24/2012,14:10,Copper,AM,done,273 
+RT,c,44 ,20,R3,09/25/2012,14:45,Copper,AM,done,"2,753 "
+RT,c,45 ,26,R3,10/04/2012,09:50,Copper,AM,done,44 
+RT,c,45 ,31,R3,10/05/2012,08:15,Copper,AM,done,"1,853 "
+RT,c,46 ,49,R3,10/24/2012,13:23,Copper,AM,done,631 
+RT,c,46 ,51,R3,10/25/2012,14:10,Copper,AM,done,682 
+RT,c,46 ,64,R3,10/28/2012,11:15,Copper,AM,done,423 
+RT,c,46 ,72,R3,10/30/2012,12:03,Copper,AM,done,689 
+RT,c,46 ,87,R3,11/03/2012,16:13,Copper,AM,done,670 
+RT,c,44 ,14,R3,09/20/2012,13:31,Gold,AF,done,97 
+RT,c,46 ,71,R3,10/30/2012,11:50,Gold,AF,done,533 
+RT,c,46 ,95,R3,11/06/2012,09:40,Gold,AF,done,"2,878 "
+RT,c,48 ,120,R3,12/06/2012,11:35,Gold,AF,done,581 
+RT,c,46 ,92,R3,11/05/2012,11:31,Iron,AF,done,267 
+RT,c,48 ,126,R3,12/08/2012,12:25,Iron,AF,done,485 
+RT,c,46 ,63,R3,10/28/2012,11:10,Magnesium,SF,done,444 
+RT,g,68 ,707,R3,01/20/2015,13:05,Magnesium,AF,done,278 
+RT,c,45 ,28,R3,10/04/2012,13:49,Potassium,AF,done,429 
+RT,c,45 ,47,R3,10/09/2012,10:46,Potassium,AF,done,254 
+RT,c,46 ,52,R3,10/25/2012,14:31,Potassium,AF,done,615 
+RT,c,46 ,66,R3,10/29/2012,08:20,Potassium,AF,done,"1,049 "
+RT,c,46 ,85,R3,11/03/2012,12:11,Potassium,AF,done,507 
+RT,c,48 ,121,R3,12/06/2012,13:31,Potassium,AF,done,134 
+RT,c,43 ,4,R3,08/26/2012,13:21,Silver,AF,done,370 
+RT,c,44 ,18,R3,09/25/2012,12:29,Silver,AF,done,906 
+RT,c,45 ,42,R3,10/08/2012,07:50,Silver,AF,done,196 
+RT,c,46 ,50,R3,10/24/2012,13:35,Silver,AF,done,672 
+RT,c,46 ,96,R3,11/06/2012,09:49,Silver,AF,done,217 
+RT,c,47 ,107,R3,11/24/2012,09:19,Silver,AF,done,679 
+RT,c,48 ,131,R3,12/10/2012,12:31,Silver,AF,done,789 
+RT,g,68 ,727,R3,01/26/2015,12:55,Silver,AF,done,540 
+RT,c,46 ,75,R3,11/02/2012,14:30,Sodium,SF,done,700 
+RT,c,43 ,8,R3,08/31/2012,12:40,Sulphur,SF,done,672 
+RT,c,44 ,15,R3,09/23/2012,15:20,Sulphur,SF,done,327 
+RT,c,45 ,38,R3,10/06/2012,16:50,Sulphur,SF,done,215 
+RT,c,46 ,57,R3,10/27/2012,08:05,Sulphur,SF,done,579 
+RT,g,68 ,714,R3,01/22/2015,13:47,Sulphur,AF,done,555 
+RT,c,43 ,3,R3,08/25/2012,16:12,Tin,SM,done,107 
+RT,c,45 ,37,R3,10/06/2012,14:05,Tin,SM,done,457 
+RT,c,46 ,55,R3,10/26/2012,08:15,Tin,SM,done,973 
+RT,c,47 ,100,R3,11/15/2012,14:12,Tin,SM,done,161 
+RT,g,68 ,706,R3,01/20/2015,10:53,Tin,SM,done,116 
+RT,g,68 ,721,R3,01/25/2015,13:11,Tin,SM,done,281 
+RT,c,43 ,2,R3,08/23/2012,10:12,Zinc,AF,done,187 
+RT,c,44 ,11,R3,09/15/2012,14:51,Zinc,AF,done,261 
+RT,c,44 ,19,R3,09/25/2012,13:31,Zinc,AF,done,288 
+RT,c,45 ,44,R3,10/08/2012,13:00,Zinc,AF,done,415 
+RT,c,46 ,74,R3,11/02/2012,10:15,Zinc,AF,done,568 
+RT,c,46 ,91,R3,11/04/2012,17:04,Zinc,AF,done,"2,185 "
+RT,c,47 ,102,R3,11/16/2012,10:15,Zinc,AF,done,262 
+RT,c,48 ,117,R3,12/05/2012,16:05,Zinc,AF,done,603 
+RT,g,68 ,729,R3,01/26/2015,14:56,Zinc,AF,done,196 
+RT,d,50 ,156,R4,01/19/2013,14:32,Andromeda,AF,done,771 
+RT,d,52 ,231,R4,03/09/2013,14:59,Andromeda,AF,done,933 
+RT,f,63 ,526,R4,03/20/2014,11:37,Andromeda,AF,done,"1,618 "
+RT,f,63 ,548,R4,03/23/2014,12:12,Andromeda,AF,done,"6,035 "
+RT,f,64 ,577,R4,04/13/2014,12:11,Andromeda,AF,done,238 
+RT,f,64 ,585,R4,04/15/2014,12:22,Andromeda,AF,done,198 
+RT,f,66 ,645,R4,06/15/2014,12:23,Andromeda,AF,done,75 
+RT,f,67 ,679,R4,07/12/2014,11:33,Andromeda,AF,done,182 
+RT,f,67 ,705,R4,07/18/2014,12:32,Andromeda,AF,done,81 
+RT,d,49 ,144,R4,12/30/2012,09:42,Earth,AM,done,802 
+RT,d,50 ,154,R4,01/18/2013,11:40,Earth,AM,done,"4,681 "
+RT,d,50 ,157,R4,01/19/2013,15:30,Earth,AM,done,"3,554 "
+RT,d,50 ,164,R4,01/21/2013,11:56,Earth,AM,done,895 
+RT,d,51 ,190,R4,02/08/2013,11:20,Earth,AM,done,536 
+RT,d,51 ,193,R4,02/09/2013,12:21,Earth,AM,done,"1,587 "
+RT,d,51 ,213,R4,02/16/2013,11:10,Earth,AM,done,"1,643 "
+RT,d,53 ,252,R4,03/27/2013,13:10,Earth,AM,done,"1,557 "
+RT,f,63 ,558,R4,03/24/2014,12:52,Earth,AM,done,"1,065 "
+RT,f,63 ,561,R4,03/25/2014,11:18,Earth,AM,done,142 
+RT,f,64 ,589,R4,04/16/2014,12:38,Earth,AM,done,223 
+RT,f,65 ,607,R4,05/10/2014,12:41,Earth,AM,done,125 
+RT,f,65 ,611,R4,05/11/2014,11:42,Earth,AM,done,88 
+RT,f,66 ,641,R4,06/14/2014,11:25,Earth,AM,done,136 
+RT,f,67 ,690,R4,07/14/2014,11:15,Earth,AM,done,340 
+RT,d,51 ,194,R4,02/09/2013,13:53,Indian,SM,done,786 
+RT,f,63 ,557,R4,03/24/2014,11:17,Indian,SM,done,"1,502 "
+RT,f,63 ,562,R4,03/25/2014,11:40,Indian,SM,done,"1,776 "
+RT,f,66 ,642,R4,06/14/2014,12:15,Indian,SM,done,616 
+RT,f,67 ,691,R4,07/14/2014,12:12,Indian,SM,done,377 
+RT,d,49 ,146,R4,01/02/2013,13:44,Jupiter,AF,done,938 
+RT,d,50 ,179,R4,01/28/2013,13:27,Jupiter,AF,done,"1,774 "
+RT,d,51 ,202,R4,02/11/2013,16:11,Jupiter,AF,done,"1,500 "
+RT,d,51 ,216,R4,02/16/2013,15:21,Jupiter,AF,done,365 
+RT,d,52 ,226,R4,03/08/2013,13:55,Jupiter,AF,done,"1,578 "
+RT,d,53 ,238,R4,03/21/2013,09:20,Jupiter,AF,done,"1,887 "
+RT,d,53 ,253,R4,03/27/2013,16:01,Jupiter,AF,done,357 
+RT,f,63 ,525,R4,03/20/2014,09:24,Jupiter,AF,done,"1,527 "
+RT,f,63 ,535,R4,03/21/2014,10:29,Jupiter,AF,done,"4,462 "
+RT,d,52 ,230,R4,03/09/2013,14:30,Luna,AF,done,"1,616 "
+RT,f,63 ,515,R4,03/18/2014,10:15,Luna,AF,done,"1,183 "
+RT,f,63 ,542,R4,03/22/2014,09:50,Luna,AF,done,"3,098 "
+RT,f,63 ,550,R4,03/23/2014,12:56,Luna,AF,done,"1,669 "
+RT,f,64 ,574,R4,04/12/2014,14:21,Luna,AF,done,451 
+RT,f,64 ,584,R4,04/15/2014,12:21,Luna,AF,done,177 
+RT,f,65 ,601,R4,05/09/2014,11:20,Luna,AF,done,133 
+RT,f,65 ,619,R4,05/14/2014,11:40,Luna,AF,done,62 
+RT,f,66 ,654,R4,06/17/2014,11:27,Luna,AF,done,293 
+RT,f,67 ,702,R4,07/14/2014,14:55,Luna,AF,done,301 
+RT,f,67 ,696,R4,07/16/2014,15:00,Luna,AF,done,343 
+RT,f,67 ,703,R4,07/18/2014,09:40,Luna,AF,done,147 
+RT,d,49 ,147,R4,01/02/2013,16:07,Mars,AF,done,"1,746 "
+RT,d,50 ,150,R4,01/16/2013,13:48,Mars,AF,done,457 
+RT,d,50 ,170,R4,01/24/2013,10:10,Mars,AF,done,"5,402 "
+RT,d,50 ,178,R4,01/27/2013,11:50,Mars,AF,done,"1,504 "
+RT,d,51 ,206,R4,02/13/2013,12:20,Mars,AF,done,"2,297 "
+RT,d,51 ,214,R4,02/16/2013,13:01,Mars,AF,done,434 
+RT,f,63 ,495,R4,03/13/2014,13:28,Mars,AFi,done,689 
+RT,f,63 ,510,R4,03/17/2014,10:18,Mars,AFi,done,566 
+RT,f,63 ,551,R4,03/23/2014,13:17,Mars,AFi,done,"4,483 "
+RT,f,64 ,586,R4,04/15/2014,13:14,Mars,AF,done,207 
+RT,f,65 ,594,R4,05/06/2014,11:15,Mars,AF,done,123 
+RT,f,67 ,695,R4,07/16/2014,13:12,Mars,AF,done,484 
+RT,f,67 ,704,R4,07/18/2014,11:28,Mars,AF,done,120 
+RT,f,63 ,536,R4,03/21/2014,11:35,Moon,AF,done,"1,116 "
+RT,f,64 ,563,R4,04/07/2014,09:49,Moon,AF,done,425 
+RT,f,65 ,602,R4,05/09/2014,11:29,Moon,AF,done,265 
+RT,f,66 ,644,R4,06/15/2014,11:11,Moon,AF,done,57 
+RT,f,66 ,656,R4,06/17/2014,13:41,Moon,AF,done,254 
+RT,f,67 ,685,R4,07/13/2014,12:11,Moon,AF,done,463 
+RT,f,67 ,700,R4,07/14/2014,11:26,Moon,AF,done,301 
+RT,d,49 ,149,R4,01/08/2013,11:25,Pacific,SF,done,554 
+RT,d,50 ,171,R4,01/24/2013,10:05,Pacific,SF,done,"1,223 "
+RT,d,51 ,207,R4,02/13/2013,13:13,Pacific,SF,done,"4,198 "
+RT,d,53 ,239,R4,03/21/2013,15:15,Pacific,SF,done,"2,171 "
+RT,d,53 ,261,R4,04/01/2013,14:15,Pacific,SF,done,217 
+RT,f,63 ,517,R4,03/18/2014,12:44,Pacific,AF,done,"1,566 "
+RT,f,63 ,537,R4,03/21/2014,12:35,Pacific,AF,done,92 
+RT,f,63 ,549,R4,03/23/2014,12:48,Pacific,AF,done,"3,621 "
+RT,f,65 ,612,R4,05/11/2014,12:15,Pacific,AF,done,188 
+RT,f,66 ,627,R4,06/12/2014,12:38,Pacific,AF,done,799 
+RT,f,66 ,655,R4,06/17/2014,13:15,Pacific,AF,done,214 
+RT,f,67 ,672,R4,07/11/2014,15:13,Pacific,AF,done,324 
+RT,d,50 ,176,R4,01/26/2013,14:32,Pluto,AF,done,533 
+RT,d,51 ,184,R4,02/06/2013,14:17,Pluto,AF,done,"1,431 "
+RT,d,51 ,215,R4,02/16/2013,13:17,Pluto,AF,done,803 
+RT,d,52 ,222,R4,03/07/2013,14:43,Pluto,AF,done,603 
+RT,d,53 ,263,R4,04/02/2013,14:31,Pluto,AF,done,227 
+RT,f,63 ,494,R4,03/13/2014,12:46,Pluto,AFi,done,133 
+RT,f,63 ,501,R4,03/15/2014,12:50,Pluto,AF,done,"2,160 "
+RT,f,63 ,522,R4,03/19/2014,12:26,Pluto,AFi,done,448 
+RT,f,63 ,546,R4,03/23/2014,11:20,Pluto,AF,done,"2,279 "
+RT,f,64 ,581,R4,04/14/2014,11:12,Pluto,AF,done,171 
+RT,f,65 ,593,R4,05/06/2014,10:44,Pluto,AF,done,165 
+RT,f,66 ,625,R4,06/12/2014,10:11,Pluto,AF,done,193 
+RT,f,67 ,671,R4,07/11/2014,13:44,Pluto,AF,done,274 
+RT,f,63 ,516,R4,03/18/2014,11:27,Sky,AF,done,978 
+RT,f,63 ,527,R4,03/20/2014,13:22,Sky,AF,done,"1,339 "
+RT,f,64 ,588,R4,04/16/2014,13:17,Sky,AF,done,385 
+RT,f,66 ,646,R4,06/15/2014,13:14,Sky,AF,done,111 
+RT,f,66 ,665,R4,06/18/2014,12:05,Sky,AF,done,291 
+RT,f,67 ,682,R4,07/12/2014,15:19,Sky,AF,done,108 
+RT,f,67 ,687,R4,07/13/2014,13:19,Sky,AF,done,768 
+RT,d,50 ,161,R4,01/20/2013,12:08,Uranus,AF,done,805 
+RT,d,50 ,177,R4,01/27/2013,11:00,Uranus,AF,done,"4,614 "
+RT,d,50 ,182,R4,01/29/2013,14:05,Uranus,AF,done,"1,059 "
+RT,d,51 ,205,R4,02/13/2013,10:40,Uranus,AF,done,"2,617 "
+RT,d,51 ,218,R4,02/17/2013,11:40,Uranus,AF,done,"1,498 "
+RT,d,52 ,227,R4,03/08/2013,14:09,Uranus,AF,done,"1,606 "
+RT,f,63 ,534,R4,03/21/2014,10:18,Uranus,AF,done,"1,024 "
+RT,f,63 ,543,R4,03/22/2014,10:22,Uranus,AF,done,"5,022 "
+RT,f,64 ,578,R4,04/13/2014,13:24,Uranus,AF,done,377 
+RT,f,65 ,618,R4,05/14/2014,11:11,Uranus,AF,done,84 
+RT,f,66 ,647,R4,06/15/2014,14:06,Uranus,AF,done,122 
+RT,f,66 ,666,R4,06/18/2014,14:11,Uranus,AF,done,279 
+RT,f,67 ,688,R4,07/13/2014,15:28,Uranus,AF,done,619 
+RT,d,49 ,145,R4,12/31/2012,13:43,Venus,AF,done,535 
+RT,d,50 ,152,R4,01/17/2013,11:30,Venus,AF,done,"1,668 "
+RT,d,51 ,183,R4,02/06/2013,11:07,Venus,AF,done,351 
+RT,d,51 ,197,R4,02/10/2013,12:51,Venus,AF,done,708 
+RT,d,51 ,201,R4,02/11/2013,12:44,Venus,AF,done,"1,763 "
+RT,d,51 ,212,R4,02/15/2013,12:51,Venus,AF,done,"3,436 "
+RT,d,52 ,228,R4,03/09/2013,10:36,Venus,AF,done,"1,511 "
+RT,d,53 ,251,R4,03/27/2013,11:51,Venus,AF,done,369 
+RT,d,53 ,260,R4,04/01/2013,01:48,Venus,AF,done,231 
+RT,f,63 ,500,R4,03/15/2014,12:11,Venus,AF,done,"2,489 "
+RT,f,63 ,511,R4,03/17/2014,11:25,Venus,AF,done,777 
+RT,f,63 ,518,R4,03/18/2014,14:09,Venus,AFi,done,717 
+RT,f,63 ,547,R4,03/23/2014,12:10,Venus,AF,done,"5,026 "
+RT,f,66 ,636,R4,06/13/2014,10:16,Venus,AF,done,"2,244 "
+RT,f,67 ,699,R4,07/17/2014,10:20,Venus,AF,done,240 
+RT,e,57 ,298,R5,11/05/2013,13:19,Annette,AF,done,223 
+RT,e,58 ,321,R5,12/01/2013,13:00,Annette,AF,done,109 
+RT,e,60 ,359,R5,01/04/2014,11:15,Annette,AF,done,395 
+RT,e,60 ,382,R5,01/08/2014,13:14,Annette,AF,done,201 
+RT,e,60 ,408,R5,01/13/2014,11:52,Annette,AF,done,113 
+RT,e,61 ,473,R5,02/03/2014,14:00,Annette,AF,done,"1,249 "
+RT,e,60 ,416,R5,01/15/2014,12:40,Chris,AF,done,216 
+RT,e,61 ,463,R5,02/02/2014,16:45,Chris,AF,done,374 
+RT,e,58 ,291,R5,11/22/2013,15:01,Dizzy,AF,done,778 
+RT,e,60 ,384,R5,01/09/2014,14:02,Dizzy,AF,done,243 
+RT,e,60 ,392,R5,01/10/2014,15:20,Dizzy,AF,done,168 
+RT,e,61 ,475,R5,02/03/2014,15:05,Dizzy,AF,done,441 
+RT,e,57 ,296,R5,11/04/2013,12:08,Doreen,AF,done,76 
+RT,e,58 ,281,R5,11/20/2013,12:43,Doreen,AF,done,115 
+RT,e,58 ,304,R5,11/23/2013,12:32,Doreen,AF,done,301 
+RT,e,58 ,306,R5,11/24/2013,13:15,Doreen,AF,done,115 
+RT,e,58 ,311,R5,11/27/2013,11:06,Doreen,AF,done,242 
+RT,e,59 ,331,R5,12/15/2013,12:04,Doreen,AF,done,96 
+RT,e,59 ,336,R5,12/17/2013,10:28,Doreen,AF,done,164 
+RT,e,59 ,341,R5,12/18/2013,09:00,Doreen,AF,done,184 
+RT,e,60 ,364,R5,01/05/2014,10:10,Doreen,AF,done,374 
+RT,e,60 ,372,R5,01/06/2014,14:16,Doreen,AF,done,526 
+RT,e,60 ,404,R5,01/12/2014,12:09,Doreen,AF,done,545 
+RT,e,61 ,445,R5,01/31/2014,13:22,Doreen,AF,done,363 
+RT,e,57 ,292,R5,11/02/2013,12:27,Edith,AF,done,271 
+RT,e,57 ,299,R5,11/05/2013,14:13,Edith,AF,done,412 
+RT,e,58 ,287,R5,11/21/2013,11:17,Edith,AF,done,69 
+RT,e,58 ,290,R5,11/22/2013,13:21,Edith,AF,done,150 
+RT,e,58 ,303,R5,11/23/2013,11:21,Edith,AF,done,182 
+RT,e,58 ,307,R5,11/25/2013,12:11,Edith,AF,done,110 
+RT,e,58 ,314,R5,11/28/2013,13:11,Edith,AF,done,294 
+RT,e,59 ,323,R5,12/10/2013,12:12,Edith,AF,done,174 
+RT,e,60 ,374,R5,01/07/2014,11:50,Edith,AF,done,248 
+RT,e,61 ,422,R5,01/25/2014,14:03,Edith,AF,done,221 
+RT,e,61 ,460,R5,02/02/2014,12:14,Edith,AF,done,305 
+RT,e,58 ,308,R5,11/26/2013,09:51,Jane,AF,done,175 
+RT,e,58 ,317,R5,11/29/2013,12:02,Jane,AF,done,214 
+RT,e,59 ,328,R5,12/13/2013,14:11,Jane,AF,done,108 
+RT,e,59 ,333,R5,12/16/2013,09:30,Jane,AF,done,339 
+RT,e,59 ,337,R5,12/17/2013,12:40,Jane,AF,done,309 
+RT,e,59 ,353,R5,12/20/2013,15:18,Jane,AF,done,106 
+RT,e,60 ,373,R5,01/07/2014,10:13,Jane,AF,done,300 
+RT,e,60 ,381,R5,01/08/2014,11:50,Jane,AF,done,606 
+RT,e,61 ,443,R5,01/31/2014,10:15,Jane,AF,done,667 
+RT,e,60 ,406,R5,01/13/2014,09:50,Joy,SF,done,298 
+RT,e,57 ,283,R5,10/29/2013,12:41,Julie,AF,done,222 
+RT,e,58 ,300,R5,11/23/2013,10:55,Julie,AF,done,570 
+RT,e,58 ,313,R5,11/28/2013,08:45,Julie,AF,done,180 
+RT,e,60 ,398,R5,01/11/2014,16:54,Julie,AF,done,899 
+RT,e,61 ,420,R5,01/25/2014,13:06,Julie,AF,done,449 
+RT,e,61 ,451,R5,02/01/2014,10:09,Julie,AF,done,162 
+RT,e,61 ,461,R5,02/02/2014,13:30,Julie,AF,done,404 
+RT,e,58 ,318,R5,11/29/2013,13:20,Kate,AF,done,95 
+RT,e,59 ,338,R5,12/17/2013,14:11,Kate,AF,done,334 
+RT,e,59 ,346,R5,12/19/2013,09:10,Kate,AF,done,157 
+RT,e,60 ,375,R5,01/07/2014,10:13,Kate,AF,done,124 
+RT,e,60 ,407,R5,01/13/2014,11:00,Kate,AF,done,302 
+RT,e,61 ,431,R5,01/26/2014,12:14,Kate,AF,done,515 
+RT,e,57 ,294,R5,11/04/2013,11:42,Light,AF,done,130 
+RT,e,57 ,302,R5,11/06/2013,14:01,Light,AF,done,166 
+RT,e,58 ,320,R5,12/01/2013,11:58,Light,AF,done,166 
+RT,e,59 ,326,R5,12/12/2013,11:27,Light,AF,done,181 
+RT,e,59 ,342,R5,12/18/2013,10:08,Light,AF,done,146 
+RT,e,60 ,383,R5,01/09/2014,12:14,Light,AF,done,223 
+RT,e,60 ,409,R5,01/13/2014,14:15,Light,AF,done,132 
+RT,e,61 ,474,R5,02/03/2014,14:37,Light,AF,done,345 
+RT,e,57 ,288,R5,10/31/2013,12:30,Mark,AM,done,75 
+RT,e,60 ,369,R5,01/06/2014,10:40,Mark,AM,done,183 
+RT,e,60 ,413,R5,01/14/2014,11:18,Mark,AM,done,315 
+RT,e,61 ,432,R5,01/26/2014,13:47,Mark,AM,done,"1,929 "
+RT,e,61 ,421,R5,01/25/2014,13:15,Patrick,AF,done,376 
+RT,e,57 ,297,R5,11/05/2013,12:44,Ringtail,AF,done,228 
+RT,e,57 ,301,R5,11/06/2013,12:51,Ringtail,AF,done,204 
+RT,e,58 ,305,R5,11/24/2013,13:03,Ringtail,AF,done,43 
+RT,e,59 ,352,R5,12/20/2013,13:47,Ringtail,AF,done,217 
+RT,e,60 ,391,R5,01/10/2014,13:40,Ringtail,AF,done,238 
+RT,e,60 ,415,R5,01/15/2014,12:00,Ringtail,AF,done,144 
+RT,e,61 ,472,R5,02/03/2014,09:54,Ringtail,AF,done,446 
+RT,e,57 ,282,R5,10/29/2013,09:55,Rose,AF,done,559 
+RT,e,58 ,309,R5,11/26/2013,11:12,Rose,AF,done,207 
+RT,e,58 ,316,R5,11/29/2013,10:08,Rose,AF,done,151 
+RT,e,58 ,319,R5,12/01/2013,11:50,Rose,AF,done,61 
+RT,e,59 ,343,R5,12/18/2013,11:30,Rose,AF,done,284 
+RT,e,60 ,370,R5,01/06/2014,11:03,Rose,AF,done,518 
+RT,e,60 ,414,R5,01/14/2014,13:25,Rose,AF,done,162 
+RT,e,61 ,444,R5,01/31/2014,11:30,Rose,AF,done,693 
+RT,e,61 ,459,R5,02/02/2014,10:20,Rose,AF,done,"1,991 "
+RT,e,61 ,484,R5,02/04/2014,13:26,Rose,AF,done,"1,155 "
+RT,e,61 ,487,R5,02/05/2014,13:08,Rose,AF,done,344 
+RT,e,57 ,295,R5,11/04/2013,13:45,Sarah,AF,done,107 
+RT,e,59 ,327,R5,12/13/2013,13:40,Sarah,AF,done,93 
+RT,e,59 ,348,R5,12/19/2013,01:20,Sarah,AF,done,294 
+RT,e,60 ,358,R5,01/04/2014,10:11,Sarah,AF,done,"1,058 "
+RT,e,60 ,390,R5,01/10/2014,11:43,Sarah,AF,done,233 
+RT,e,61 ,435,R5,01/27/2014,14:14,Sarah,AF,done,156 
+RT,e,61 ,452,R5,02/01/2014,12:48,Sarah,AF,done,262 
+RT,e,58 ,312,R5,11/27/2013,11:48,Teddy,AF,done,100 
+RT,e,59 ,322,R5,12/10/2013,23:50,Teddy,AF,done,415 
+RT,e,59 ,330,R5,12/15/2013,11:40,Teddy,AF,done,131 
+RT,e,59 ,347,R5,12/19/2013,09:16,Teddy,AF,done,673 
+RT,e,60 ,365,R5,01/05/2014,12:23,Teddy,AF,done,208 
+RT,e,61 ,423,R5,01/25/2014,15:00,Teddy,AF,done,232 
+RT,e,61 ,446,R5,01/31/2014,16:00,Teddy,AF,done,235 
+RT,e,60 ,371,R5,01/06/2014,13:07,Topista,AF,done,280 
+RT,e,60 ,380,R5,01/08/2014,11:45,Topista,AF,done,466 
+RT,e,60 ,397,R5,01/11/2014,14:18,Topista,AF,done,152 
+RT,e,61 ,462,R5,02/02/2014,14:15,Topista,AF,done,149 
+RT,e,59 ,324,R6,12/10/2013,12:10,Ategeka,SF,done,246 
+RT,e,56 ,264,R6,09/28/2013,14:35,Bacwenkojo,AF,done,510 
+RT,e,56 ,274,R6,10/09/2013,09:45,Bacwenkojo,AF,done,537 
+RT,e,59 ,354,R6,12/20/2013,12:45,Bacwenkojo,AF,done,587 
+RT,e,60 ,377,R6,01/07/2014,12:11,Bacwenkojo,AF,done,259 
+RT,e,60 ,399,R6,01/11/2014,11:22,Bacwenkojo,AF,done,"1,263 "
+RT,e,61 ,450,R6,01/31/2014,13:20,Bacwenkojo,AF,done,"1,324 "
+RT,e,61 ,491,R6,02/05/2014,14:01,Bacwenkojo,AF,done,"1,230 "
+RT,e,56 ,267,R6,10/03/2013,14:10,Basemera,AF,done,804 
+RT,e,59 ,350,R6,12/19/2013,13:22,Basemera,AF,done,304 
+RT,e,60 ,361,R6,01/04/2014,11:25,Basemera,AF,done,183 
+RT,e,60 ,395,R6,01/10/2014,12:50,Basemera,AF,done,440 
+RT,e,61 ,436,R6,01/27/2014,09:15,Basemera,AF,done,"3,404 "
+RT,e,61 ,447,R6,01/31/2014,10:20,Basemera,AF,done,"1,115 "
+RT,e,61 ,454,R6,02/01/2014,11:15,Basemera,AF,done,"1,404 "
+RT,e,60 ,362,R6,01/04/2014,15:20,Chance,SM,done,154 
+RT,e,60 ,402,R6,01/11/2014,13:11,Kabaganda,AF,done,"1,135 "
+RT,e,61 ,426,R6,01/25/2014,12:23,Kabaganda,AF,done,"1,995 "
+RT,e,61 ,456,R6,02/01/2014,13:12,Kabaganda,AF,done,"1,394 "
+RT,e,56 ,271,R6,10/05/2013,14:43,Kabarwani,AF,done,683 
+RT,e,56 ,272,R6,10/08/2013,09:11,Kabarwani,AF,done,677 
+RT,e,57 ,284,R6,10/29/2013,13:50,Kabarwani,AF,done,81 
+RT,e,59 ,325,R6,12/11/2013,12:10,Kabarwani,AF,done,"2,419 "
+RT,e,59 ,340,R6,12/17/2013,13:52,Kabarwani,AF,done,278 
+RT,e,60 ,367,R6,01/05/2014,12:11,Kabarwani,AF,done,759 
+RT,e,60 ,400,R6,01/11/2014,11:29,Kabarwani,AF,done,421 
+RT,e,61 ,429,R6,01/25/2014,14:10,Kabarwani,AF,done,83 
+RT,e,61 ,455,R6,02/01/2014,13:11,Kabarwani,AF,done,636 
+RT,e,61 ,470,R6,02/02/2014,13:26,Kabarwani,AF,done,740 
+RT,e,56 ,269,R6,10/04/2013,15:20,Kabulemu,AF,done,347 
+RT,e,56 ,273,R6,10/08/2013,14:30,Kabulemu,AF,done,287 
+RT,e,59 ,357,R6,12/21/2013,13:27,Kabulemu,AF,done,"1,005 "
+RT,e,60 ,368,R6,01/05/2014,14:07,Kabulemu,AF,done,490 
+RT,e,60 ,379,R6,01/07/2014,15:25,Kabulemu,AF,done,461 
+RT,e,60 ,396,R6,01/10/2014,14:31,Kabulemu,AF,done,394 
+RT,e,60 ,417,R6,01/15/2014,10:22,Kabulemu,AF,done,225 
+RT,e,61 ,467,R6,02/02/2014,12:15,Kabulemu,AF,done,582 
+RT,e,61 ,477,R6,02/03/2014,11:20,Kabulemu,AF,done,489 
+RT,e,61 ,482,R6,02/03/2014,13:50,Kagurusi,SF,done,436 
+RT,e,56 ,265,R6,10/01/2013,10:30,Kaisiki,AF,done,226 
+RT,e,56 ,276,R6,10/09/2013,12:22,Kaisiki,AF,done,165 
+RT,e,57 ,289,R6,10/31/2013,14:00,Kaisiki,AF,done,101 
+RT,e,60 ,388,R6,01/09/2014,14:39,Kaisiki,AF,done,263 
+RT,e,61 ,428,R6,01/25/2014,13:11,Kaisiki,AF,done,"3,347 "
+RT,e,61 ,464,R6,02/02/2014,10:15,Kaisiki,AF,done,"1,056 "
+RT,e,59 ,349,R6,12/19/2013,12:28,Kakaikuru,AF,done,"1,918 "
+RT,e,60 ,385,R6,01/09/2014,11:42,Kakaikuru,AF,done,"2,763 "
+RT,e,60 ,412,R6,01/13/2014,08:15,Kakaikuru,AF,done,"1,808 "
+RT,e,60 ,418,R6,01/15/2014,10:33,Kakaikuru,AF,done,199 
+RT,e,61 ,465,R6,02/02/2014,10:25,Kakaikuru,AF,done,"1,261 "
+RT,e,61 ,478,R6,02/03/2014,12:01,Kakaikuru,AF,done,"2,402 "
+RT,e,56 ,268,R6,10/04/2013,11:27,Kalema,AF,done,"1,122 "
+RT,e,61 ,430,R6,01/25/2014,15:45,Kalema,AF,done,120 
+RT,e,61 ,437,R6,01/27/2014,09:41,Kalema,AF,done,"4,357 "
+RT,e,59 ,344,R6,12/18/2013,12:14,Kamakune,AF,done,194 
+RT,e,60 ,393,R6,01/10/2014,08:15,Kamakune,AF,done,220 
+RT,e,61 ,433,R6,01/26/2014,12:15,Kamakune,AF,done,484 
+RT,e,61 ,466,R6,02/02/2014,11:20,Kamakune,AF,done,"2,272 "
+RT,e,61 ,476,R6,02/03/2014,11:11,Kamakune,AF,done,879 
+RT,e,56 ,270,R6,10/05/2013,11:25,Karungi,AF,done,244 
+RT,e,57 ,286,R6,10/30/2013,12:26,Karungi,AF,done,324 
+RT,e,59 ,334,R6,12/16/2013,12:48,Karungi,AFi,done,174 
+RT,e,60 ,360,R6,01/04/2014,11:05,Karungi,AF,done,292 
+RT,e,60 ,401,R6,01/11/2014,12:10,Karungi,AF,done,"2,137 "
+RT,e,61 ,483,R6,02/03/2014,14:10,Karungi,AF,done,611 
+RT,e,58 ,310,R6,11/27/2013,10:20,Kasaija,AM,done,107 
+RT,e,59 ,356,R6,12/21/2013,13:10,Kasaija,AM,done,83 
+RT,e,60 ,419,R6,01/16/2014,10:41,Kasaija,AM,done,666 
+RT,e,60 ,387,R6,01/09/2014,14:01,Kasemire,AF,done,145 
+RT,e,61 ,488,R6,02/05/2014,11:39,Kasemire,AF,done,"1,573 "
+RT,e,60 ,363,R6,01/04/2014,16:10,Kasigazi,SF,done,121 
+RT,e,56 ,266,R6,10/01/2013,11:20,Kebirungi,AF,done,598 
+RT,e,59 ,355,R6,12/20/2013,13:05,Kebirungi,AF,done,186 
+RT,e,60 ,386,R6,01/09/2014,13:51,Kebirungi,AF,done,"3,520 "
+RT,e,60 ,410,R6,01/13/2014,10:55,Kebirungi,AF,done,898 
+RT,e,61 ,424,R6,01/25/2014,11:13,Kebirungi,AF,done,255 
+RT,e,61 ,439,R6,01/27/2014,12:20,Kebirungi,AF,done,242 
+RT,e,61 ,471,R6,02/02/2014,14:24,Kebirungi,AF,done,788 
+RT,e,57 ,293,R6,11/02/2013,14:11,Kengonzi,AF,done,189 
+RT,e,59 ,329,R6,12/13/2013,14:45,Kengonzi,AFI,done,155 
+RT,e,59 ,335,R6,12/16/2013,13:50,Kengonzi,AFi,done,135 
+RT,e,59 ,339,R6,12/17/2013,13:25,Kengonzi,AF,done,252 
+RT,e,60 ,376,R6,01/07/2014,10:45,Kengonzi,AF,done,202 
+RT,e,61 ,448,R6,01/31/2014,12:16,Kengonzi,AF,done,462 
+RT,e,61 ,481,R6,02/03/2014,13:33,Kengonzi,AF,done,510 
+RT,e,60 ,405,R6,01/12/2014,09:13,Kentaro,AF,done,"2,426 "
+RT,e,61 ,425,R6,01/25/2014,11:25,Kentaro,AF,done,477 
+RT,e,61 ,442,R6,01/27/2014,14:06,Kentaro,AF,done,"5,030 "
+RT,e,61 ,458,R6,02/01/2014,14:20,Kentaro,AF,done,950 
+RT,e,61 ,490,R6,02/05/2014,13:54,Kentaro,AF,done,"2,527 "
+RT,e,60 ,389,R6,01/09/2014,15:49,Koojo,SF,done,314 
+RT,e,61 ,434,R6,01/26/2014,14:21,Koojo,SF,done,"1,535 "
+RT,e,56 ,275,R6,10/09/2013,10:10,Kyoya,AF,done,245 
+RT,e,57 ,285,R6,10/29/2013,16:05,Kyoya,AF,done,417 
+RT,e,60 ,378,R6,01/07/2014,14:15,Kyoya,AF,done,"1,064 "
+RT,e,60 ,411,R6,01/13/2014,11:12,Kyoya,AF,done,858 
+RT,e,61 ,427,R6,01/25/2014,12:55,Kyoya,AF,done,515 
+RT,e,61 ,438,R6,01/27/2014,11:20,Kyoya,AF,done,855 
+RT,e,61 ,449,R6,01/31/2014,13:11,Kyoya,AF,done,265 
+RT,e,61 ,479,R6,02/03/2014,12:43,Kyoya,AF,done,579 
+RT,e,60 ,403,R6,01/11/2014,13:20,Macumu,AF,done,871 
+RT,e,61 ,440,R6,01/27/2014,12:58,Macumu,AF,done,"2,093 "
+RT,e,61 ,453,R6,02/01/2014,10:27,Macumu,AF,done,"1,810 "
+RT,e,61 ,480,R6,02/03/2014,12:45,Macumu,AF,done,567 
+RT,e,59 ,345,R6,12/18/2013,13:22,Mugisa,SF,done,823 
+RT,e,60 ,366,R6,01/05/2014,11:44,Mugisa,SF,done,544 
+RT,e,61 ,468,R6,02/02/2014,12:40,Mugisa,SF,done,"1,258 "
+RT,e,59 ,351,R6,12/19/2013,13:45,Murungi,SM,done,618 
+RT,e,61 ,469,R6,02/02/2014,12:44,Murungi,SM,done,432 
+RT,e,60 ,394,R6,01/10/2014,10:43,Mutebi,SM,done,771 
+RT,e,61 ,457,R6,02/01/2014,13:38,Mutebi,SM,done,"1,248 "
+RT,e,59 ,332,R6,12/15/2013,11:25,Nkojo,AF,done,188 
+RT,e,61 ,441,R6,01/27/2014,13:01,Nkojo,AF,done,128 

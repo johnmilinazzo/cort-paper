@@ -1,0 +1,358 @@
+---
+title: "CORT R"
+author: "John Milinazzo"
+date: "10/10/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+```{r}
+library(ggplot2)
+library(car)
+library(tidyverse)
+library(dbplyr)
+cort <- read.csv("CORT levels for RT 2012-2015.csv")
+UCP <- read.csv("UCP data for RT 2012-2015.csv")
+prego <- read.csv("Repro for RT 2012-2015 (1).csv")
+updown <- read.csv("Personality - updown.csv")
+```
+
+
+```{r}
+calls <- read.csv("Personality-calls.csv")
+UCP <- UCP %>% mutate(logUCP = log10(meanUCPsg)) 
+```
+
+
+```{r}
+joined_data <- left_join(cort, UCP)
+joined_data2 <- left_join(joined_data, prego)
+#cant get personality data added
+```
+```{r}
+personality_data <- left_join(calls, updown)
+```
+```{r}
+
+ggplot(joined_data2, aes(x=logUCP)) + 
+  geom_histogram(fill = "tomato", color = "tomato4") + labs(title="Histogram of Log UCP") +
+  theme_gray()
+
+ggplot(joined_data2, aes(x=Group, y=logUCP)) + 
+  geom_boxplot(fill = "palevioletred1", color="palevioletred4") + labs(title="Log UCP Level per Group",x="Group", y = "Log of UCP") +
+  theme_gray()
+```
+```{r}
+ggplot(joined_data2, aes(x=meanUCPsg)) + 
+  geom_histogram(fill = "tomato", color = "tomato4") + labs(title="Histogram of UCP sg") +
+  theme_gray()
+```
+```{r}
+ggplot(joined_data2, aes(x=Class, y=logUCP)) + 
+  geom_boxplot(fill = "palevioletred1", color="palevioletred4") + labs(title="Log UCP Level per Group",x="Class", y = "Log of UCP") +
+  theme_gray()
+```
+```{r}
+Cort_DW_num <- as.numeric(joined_data2$Cort_DW)
+```
+```{r}
+joined_data2$Cort_Numeric <- c(Cort_DW_num)
+hist(joined_data2$Cort_Numeric, col="lightblue")
+```
+```{r}
+ggplot(personality_data, aes(x=Class, y=UpDownSUM)) + 
+  geom_boxplot(fill = "palevioletred1", color="palevioletred4") + labs(title="UpDowns by Class",x="Class", y = "Sum of Updowns") +
+  theme_gray()
+```
+```{r}
+ggplot(personality_data, aes(x=Group, y=UpDownSUM)) + 
+  geom_boxplot(fill = "palevioletred1", color="palevioletred4") + labs(title="UpDowns by Group",x="Group", y = "Sum of Updowns") +
+  theme_gray()
+```
+```{r}
+ggplot(personality_data, aes(x=Activity.Primary, y=UpDownSUM)) + 
+  geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+```{r}
+ggplot(personality_data, aes(x=Period, y=UpDownSUM)) + 
+  geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+
+
+```{r}
+plot(x=joined_data2$logUCP, joined_data2$Cort_Numeric)
+```
+```{r}
+Main_Data <- select(joined_data2, Date, Group, Name, Class, meanUCPsg, logUCP, dInfant, Pregnant, Cort_Numeric)
+```
+```{r}
+SuperJoin <- full_join(x=Main_Data, y=personality_data, by=c("Date","Name"))%>%
+  drop_na(Activity.Primary) %>% 
+  drop_na(Cort_Numeric)
+```
+```{r}
+ggplot(SuperJoin, aes(x=Activity.Primary, y=Cort_Numeric)) + 
+  geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+
+```{r}
+ggplot(SuperJoin, aes(x=Group.x, y=Cort_Numeric)) + 
+  geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+
+```{r}
+ggplot(SuperJoin, aes(x=Name, y=Cort_Numeric)) + 
+  geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+```{r}
+plot(x=SuperJoin$logUCP, y=SuperJoin$Cort_Numeric)
+```
+
+
+
+```{r}
+ggplot(SuperJoin, aes(x=Class.x, y=Cort_Numeric)) + 
+  geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+```{r}
+SuperJoin[c(1,11,21,31,41,51,61,71,81,101,111,121,131,139,149,169,179,189,199,209,229,239,249,259,269,279,289,299,309,319,329,339,349,353), ]
+```
+```{r}
+updown_2 <- updown[updown$Activity.Primary != "Resting/Social", ]
+
+```
+
+```{r fixing capital names }
+updown_2$Name[updown_2$Name == 'JUPITER'] <- 'Jupiter'
+updown_2$Name[updown_2$Name == 'KATE'] <- 'Kate'
+updown_2$Name[updown_2$Name == 'MARK'] <- 'Mark'
+updown_2$Name[updown_2$Name == 'MBALE'] <- 'Mbale'
+updown_2$Name[updown_2$Name == 'PACIFIC'] <- 'Pacific'
+updown_2$Class[updown_2$Class == 'AFI'] <- 'AFi'
+```
+
+
+```{r average updowns pper follow}
+updown_avg_follow <- 
+  updown_2 %>%
+  group_by(Per.Focal.Summary..Unique.Code) %>%
+  summarize(mean_updown_per_follow = mean(UpDownSUM))
+```
+
+```{r}
+updown_updated <- full_join(x=updown_2, y=updown_avg_follow, by=c("Per.Focal.Summary..Unique.Code"))
+```
+
+```{r}
+updown_updated <- updown_updated %>% 
+       rename("follow.avg" = "mean_updown_per_follow")
+```
+
+
+```{r avg UPDOWN per indv}
+updown_avg_individual <- 
+  updown_updated %>%
+  group_by(Name) %>%
+  summarize(mean_updown = mean(follow.avg))
+```
+
+```{r}
+#updown_final <- full_join(x=updown_updated, y=updown_avg_individual, by=c("Name"))
+```
+
+```{r}
+#updown_final <- updown_final %>% 
+       #rename("indiv.avg" = "mean_score")
+```
+```{r DF with avg indv UPDOWNS}
+cort_with_updowns <- full_join(x=joined_data2, y=updown_avg_individual, by=c("Name"))
+```
+```{r remove duplicated rows}
+cort_with_updowns <- cort_with_updowns[!duplicated(cort_with_updowns), ]
+
+```
+
+```{r}
+plot(x=cort_w_updowns$mean_score, y=cort_w_updowns$Cort_Numeric)
+```
+
+```{r}
+ggplot(cort_w_updowns, aes(x=Group, y=mean_updown)) + geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+```{r avg updown boxplot}
+ggplot(cort_w_updowns, aes(x=Class, y=mean_updown)) + geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+
+```{r remove blanks}
+cort_w_updowns <- cort_with_updowns[-c(692,693,694),]
+```
+
+```{r}
+Pregnant_Character <- as.character(cort_w_updowns$Pregnant)
+cort_w_updowns$Prego_Character <- c(Pregnant_Character)
+```
+
+```{r}
+ggplot(cort_w_updowns, aes(x=Pregnant_Character, y=mean_updown)) + geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+```{r}
+ggplot(cort_w_updowns, aes(x=Pregnant_Character, y=Cort_Numeric)) + geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+```{r}
+ggplot(cort_w_updowns, aes(x=Pregnant_Character, y=logUCP)) + geom_boxplot(fill = "palevioletred1", color="palevioletred4")  +
+  theme_gray()
+```
+            
+```{r}
+
+cort_w_updowns <- cort_w_updowns %>% 
+  
+  mutate(Repro_Broad = case_when(Pregnant =="1" ~ "1" ,
+                            dInfant == "1" ~ "2",
+                             Pregnant == "0" ~ "0",
+                             Pregnant == "10" ~ "1")) 
+```
+
+```{r cort per group}
+ggplot(joined_data2, aes(x=Group, y=Cort_Numeric)) + geom_boxplot(fill = "darkolivegreen3", color="darkolivegreen4")  +
+  theme_gray()
+
+```
+```{r remove items from environment}
+#rm()
+```
+
+
+```{r 2.5 only has values with corrt}
+joined_data_2.5 <- subset(joined_data2, !is.na(Cort_Numeric))
+```
+
+
+```{r}
+cort_avg_individual <- 
+  joined_data_2.5 %>%
+  group_by(Name) %>%
+  summarize(mean_cort = mean(Cort_Numeric))
+```
+
+```{r}
+joined_data3 <- full_join(x=joined_data_2.5, y=cort_avg_individual, by=c("Name"))
+```
+
+```{r}
+joined_data3$cort_cent <- (joined_data3$Cort_Numeric - joined_data3$mean_cort)
+```
+
+```{r cort_cent per group}
+ggplot(joined_data3, aes(x=Group, y=cort_cent)) + geom_boxplot(fill = "darkolivegreen3", color="darkolivegreen4")  +
+  theme_gray()
+```
+
+```{r}
+group2and5 <- subset(joined_data3, Group %in% c('R2','R5'))
+```
+
+```{r}
+group2and5 <- group2and5 %>% 
+  
+  mutate(Repro_Broad = case_when(Pregnant =="1" ~ "1" ,
+                             dInfant == "1" ~ "2",
+                            Pregnant == "0" ~ "0",
+                             Pregnant == "10" ~ "1"))
+```
+
+```{r}
+group2and5 <- group2and5 %>% 
+  
+  mutate(Class2.0 = case_when(Repro_Broad =="1" ~ "AF1" ,
+                             Repro_Broad == "2" ~ "AF2",
+                            Repro_Broad == "0" ~ "AF0",
+                             Class == "AM" ~ "AM",
+                            Class == "SM" ~ "SM",
+                            Class == "SF" ~ "SF"))
+```
+
+```{r}
+ggplot(group2and5, aes(x=Class2.0, y=cort_cent)) + geom_boxplot(fill = "darkolivegreen3", color="darkolivegreen4")  +
+  theme_gray()
+```
+```{r}
+ggplot(group2and5, aes(x=Class2.0, y=Cort_Numeric)) + geom_boxplot(fill = "darkolivegreen3", color="darkolivegreen4")  +
+  theme_gray()
+```
+```{r}
+library(lubridate)
+```
+
+```{r}
+joined_data3$Date <- as.Date(joined_data3$Date, "%m/%d/%Y")
+
+```
+
+
+```{r}
+ggplot(joined_data3, aes(x=Date, y=Cort_Numeric,  col=Group)) + geom_point(shape=16, size=1.75, alpha=0.6) + theme_minimal() + geom_smooth(method = loess, alpha=0.2, se=FALSE)
+
+```
+```{r}
+ggplot(joined_data3, aes(x=Date, y=cort_cent,  col=Group)) + geom_point(shape=16, size=1.75, alpha=0.6) + theme_minimal() + geom_smooth(method = loess, alpha=0.2, se=FALSE)
+```
+```{r}
+group2and5$Date <- as.Date(group2and5$Date, "%m/%d/%Y")
+
+```
+
+```{r}
+AFgroup2and5 <- subset(group2and5, Class2.0 %in% c('AF0','AF1', "AF2"))
+```
+
+
+```{r}
+ggplot(AFgroup2and5, aes(x=Date, y=cort_cent,  col=Class2.0)) + geom_point(shape=16, size=1.75, alpha=0.6) + theme_minimal() + geom_smooth(method = loess, alpha=0.2, se=FALSE)
+```
+```{r}
+ggplot(AFgroup2and5, aes(x=Date, y=Cort_Numeric,  col=Class2.0)) + geom_point(shape=16, size=1.75, alpha=0.6) + theme_minimal() + geom_smooth(method = loess, alpha=0.2, se=FALSE)
+```
+
+```{r}
+ggplot(cort_w_updowns, aes(x=Name, y=mean_updown, col=Group)) + geom_point(shape=16, size=1.75, alpha=0.6) + theme_minimal() + theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1, size=3))
+```
+```{r}
+
+```
+
+
